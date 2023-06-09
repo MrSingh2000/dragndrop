@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js"></script>
+    <title>Drag N Drop</title>
+</head>
+
+<body onload="generateLists()">
+    <div class="nav">
+        Drag-n-drop
+    </div>
+    <div class="container">
+        <div class="scontainer">
+            <p class="headingText">
+                Container 1
+            </p>
+            <div class="box" id="box1"></div>
+        </div>
+        <div class="scontainer">
+            <p class="headingText">
+                Container 2
+            </p>
+            <div class="box" id="box2"></div>
+        </div>
+
+    </div>
+    <div class="buttonDiv">
+        <button class="btn" onclick="window.location.reload()">
+            Reset
+        </button>
+    </div>
+
+    <div id="customAlert" class="alert">
+        <div>
+            <img src="/checked.png" alt="check" height="50px">
+        </div>
+        <span id="alertText"></span>
+        <button id="alertClose" onclick="closeAlert()">Close</button>
+    </div>
+
+</body>
+
+</html>
